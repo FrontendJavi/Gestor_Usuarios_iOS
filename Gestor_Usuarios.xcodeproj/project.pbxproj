@@ -13,6 +13,10 @@
 		FDC7B04A245337A6001B91C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC7B048245337A6001B91C3 /* Main.storyboard */; };
 		FDC7B04C245337A9001B91C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC7B04B245337A9001B91C3 /* Assets.xcassets */; };
 		FDC7B04F245337A9001B91C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC7B04D245337A9001B91C3 /* LaunchScreen.storyboard */; };
+		FDC7B057245348CE001B91C3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B056245348CE001B91C3 /* RegisterViewController.swift */; };
+		FDC7B05924534950001B91C3 /* RecoverPassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B05824534950001B91C3 /* RecoverPassController.swift */; };
+		FDC7B05B245349EA001B91C3 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B05A245349EA001B91C3 /* UserListViewController.swift */; };
+		FDC7B05D24534A9D001B91C3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B05C24534A9D001B91C3 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FDC7B04B245337A9001B91C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC7B04E245337A9001B91C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDC7B050245337A9001B91C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC7B056245348CE001B91C3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FDC7B05824534950001B91C3 /* RecoverPassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPassController.swift; sourceTree = "<group>"; };
+		FDC7B05A245349EA001B91C3 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		FDC7B05C24534A9D001B91C3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				FDC7B042245337A6001B91C3 /* AppDelegate.swift */,
 				FDC7B044245337A6001B91C3 /* SceneDelegate.swift */,
 				FDC7B046245337A6001B91C3 /* LoginViewController.swift */,
+				FDC7B056245348CE001B91C3 /* RegisterViewController.swift */,
+				FDC7B05824534950001B91C3 /* RecoverPassController.swift */,
+				FDC7B05A245349EA001B91C3 /* UserListViewController.swift */,
+				FDC7B05C24534A9D001B91C3 /* ProfileViewController.swift */,
 				FDC7B048245337A6001B91C3 /* Main.storyboard */,
 				FDC7B04B245337A9001B91C3 /* Assets.xcassets */,
 				FDC7B04D245337A9001B91C3 /* LaunchScreen.storyboard */,
@@ -141,6 +153,10 @@
 				FDC7B047245337A6001B91C3 /* LoginViewController.swift in Sources */,
 				FDC7B043245337A6001B91C3 /* AppDelegate.swift in Sources */,
 				FDC7B045245337A6001B91C3 /* SceneDelegate.swift in Sources */,
+				FDC7B057245348CE001B91C3 /* RegisterViewController.swift in Sources */,
+				FDC7B05D24534A9D001B91C3 /* ProfileViewController.swift in Sources */,
+				FDC7B05924534950001B91C3 /* RecoverPassController.swift in Sources */,
+				FDC7B05B245349EA001B91C3 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
