@@ -17,6 +17,7 @@
 		FDC7B05924534950001B91C3 /* RecoverPassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B05824534950001B91C3 /* RecoverPassController.swift */; };
 		FDC7B05B245349EA001B91C3 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B05A245349EA001B91C3 /* UserListViewController.swift */; };
 		FDC7B05D24534A9D001B91C3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B05C24534A9D001B91C3 /* ProfileViewController.swift */; };
+		FDDA2B3724542F01004E3130 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA2B3624542F01004E3130 /* UserListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FDC7B05824534950001B91C3 /* RecoverPassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPassController.swift; sourceTree = "<group>"; };
 		FDC7B05A245349EA001B91C3 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		FDC7B05C24534A9D001B91C3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FDDA2B3624542F01004E3130 /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				FDC7B056245348CE001B91C3 /* RegisterViewController.swift */,
 				FDC7B05824534950001B91C3 /* RecoverPassController.swift */,
 				FDC7B05A245349EA001B91C3 /* UserListViewController.swift */,
+				FDDA2B3624542F01004E3130 /* UserListCell.swift */,
 				FDC7B05C24534A9D001B91C3 /* ProfileViewController.swift */,
 				FDC7B048245337A6001B91C3 /* Main.storyboard */,
 				FDC7B04B245337A9001B91C3 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDA2B3724542F01004E3130 /* UserListCell.swift in Sources */,
 				FDC7B047245337A6001B91C3 /* LoginViewController.swift in Sources */,
 				FDC7B043245337A6001B91C3 /* AppDelegate.swift in Sources */,
 				FDC7B045245337A6001B91C3 /* SceneDelegate.swift in Sources */,

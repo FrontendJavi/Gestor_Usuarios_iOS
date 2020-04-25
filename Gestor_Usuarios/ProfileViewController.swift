@@ -11,7 +11,11 @@ import UIKit
 class ProfileViewController: UIViewController {
     
     
-    //comentario de prueba
+    @IBAction func backToList(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
     
     
     

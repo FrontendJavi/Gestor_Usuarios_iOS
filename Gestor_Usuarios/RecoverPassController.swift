@@ -11,6 +11,9 @@ import UIKit
 class RecoverPassController: UIViewController {
     
     
+    @IBAction func backToStart(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
     
     
