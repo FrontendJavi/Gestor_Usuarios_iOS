@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ECCEB4BFBF9553D048B8A3F /* Pods_Gestor_Usuarios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731BBC1917145C995718F43E /* Pods_Gestor_Usuarios.framework */; };
+		FD1D0A7D2487ACAD00E7ACAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D0A7C2487ACAD00E7ACAE /* User.swift */; };
 		FDC7B043245337A6001B91C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B042245337A6001B91C3 /* AppDelegate.swift */; };
 		FDC7B045245337A6001B91C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B044245337A6001B91C3 /* SceneDelegate.swift */; };
 		FDC7B047245337A6001B91C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7B046245337A6001B91C3 /* LoginViewController.swift */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB1CDB42F2FA24AB0751080 /* Pods-Gestor_Usuarios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gestor_Usuarios.debug.xcconfig"; path = "Target Support Files/Pods-Gestor_Usuarios/Pods-Gestor_Usuarios.debug.xcconfig"; sourceTree = "<group>"; };
+		5E9D96313D8B0F9078D7E6D0 /* Pods-Gestor_Usuarios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gestor_Usuarios.release.xcconfig"; path = "Target Support Files/Pods-Gestor_Usuarios/Pods-Gestor_Usuarios.release.xcconfig"; sourceTree = "<group>"; };
+		731BBC1917145C995718F43E /* Pods_Gestor_Usuarios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gestor_Usuarios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1D0A7C2487ACAD00E7ACAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FDC7B03F245337A6001B91C3 /* Gestor_Usuarios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestor_Usuarios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC7B042245337A6001B91C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC7B044245337A6001B91C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECCEB4BFBF9553D048B8A3F /* Pods_Gestor_Usuarios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3543B3715510A1338C43D8A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1CDB42F2FA24AB0751080 /* Pods-Gestor_Usuarios.debug.xcconfig */,
+				5E9D96313D8B0F9078D7E6D0 /* Pods-Gestor_Usuarios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C913B655BCD56BA8470BBC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731BBC1917145C995718F43E /* Pods_Gestor_Usuarios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDC7B036245337A6001B91C3 = {
 			isa = PBXGroup;
 			children = (
 				FDC7B041245337A6001B91C3 /* Gestor_Usuarios */,
 				FDC7B040245337A6001B91C3 /* Products */,
+				3543B3715510A1338C43D8A0 /* Pods */,
+				8C913B655BCD56BA8470BBC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +95,7 @@
 				FDC7B042245337A6001B91C3 /* AppDelegate.swift */,
 				FDC7B044245337A6001B91C3 /* SceneDelegate.swift */,
 				FDC7B046245337A6001B91C3 /* LoginViewController.swift */,
+				FD1D0A7C2487ACAD00E7ACAE /* User.swift */,
 				FDC7B056245348CE001B91C3 /* RegisterViewController.swift */,
 				FDC7B05824534950001B91C3 /* RecoverPassController.swift */,
 				FDC7B05A245349EA001B91C3 /* UserListViewController.swift */,
@@ -89,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDC7B053245337A9001B91C3 /* Build configuration list for PBXNativeTarget "Gestor_Usuarios" */;
 			buildPhases = (
+				0C22BA3983196C07F4BC744E /* [CP] Check Pods Manifest.lock */,
 				FDC7B03B245337A6001B91C3 /* Sources */,
 				FDC7B03C245337A6001B91C3 /* Frameworks */,
 				FDC7B03D245337A6001B91C3 /* Resources */,
+				04A4CEE99876A800F40CA125 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +177,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A4CEE99876A800F40CA125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gestor_Usuarios/Pods-Gestor_Usuarios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gestor_Usuarios/Pods-Gestor_Usuarios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gestor_Usuarios/Pods-Gestor_Usuarios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C22BA3983196C07F4BC744E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gestor_Usuarios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDC7B03B245337A6001B91C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -158,6 +229,7 @@
 				FDC7B043245337A6001B91C3 /* AppDelegate.swift in Sources */,
 				FDC7B045245337A6001B91C3 /* SceneDelegate.swift in Sources */,
 				FDC7B057245348CE001B91C3 /* RegisterViewController.swift in Sources */,
+				FD1D0A7D2487ACAD00E7ACAE /* User.swift in Sources */,
 				FDC7B05D24534A9D001B91C3 /* ProfileViewController.swift in Sources */,
 				FDC7B05924534950001B91C3 /* RecoverPassController.swift in Sources */,
 				FDC7B05B245349EA001B91C3 /* UserListViewController.swift in Sources */,
@@ -302,6 +374,7 @@
 		};
 		FDC7B054245337A9001B91C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB1CDB42F2FA24AB0751080 /* Pods-Gestor_Usuarios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +393,7 @@
 		};
 		FDC7B055245337A9001B91C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9D96313D8B0F9078D7E6D0 /* Pods-Gestor_Usuarios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
